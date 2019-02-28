@@ -32,11 +32,11 @@ public abstract class BaseTest implements IAutoConst{
 		String name=iTestResult.getName();
 		if(status==1)
 		{
-			Reporter.log("Test" +name+ "is pass", true);
+			Reporter.log("Test" +name+ " is pass", true);
 		}
 		else
 		{
-			Reporter.log("Test" +name+ "is fail/skip", true);
+			Reporter.log("Test" +name+ " is fail/skip", true);
 			AutoLib.getPhoto(driver, IMG_PATH+name+".png");
 		}
 		driver.close();

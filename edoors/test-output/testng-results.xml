@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[Demo]]>
+      <![CDATA[qsp]]>
     </line>
     <line>
-      <![CDATA[TesttestDemois fail/skip]]>
+      <![CDATA[TesttestDemo is fail/skip]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11105" started-at="2019-02-28T06:34:59Z" finished-at="2019-02-28T06:35:10Z">
+  <suite name="Default suite" duration-ms="16001" started-at="2019-02-28T07:40:11Z" finished-at="2019-02-28T07:40:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11105" started-at="2019-02-28T06:34:59Z" finished-at="2019-02-28T06:35:10Z">
+    <test name="Default test" duration-ms="16001" started-at="2019-02-28T07:40:11Z" finished-at="2019-02-28T07:40:27Z">
       <class name="script.Demo">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Demo@1b604f19]" name="openApp" is-config="true" duration-ms="8354" started-at="2019-02-28T12:04:59Z" finished-at="2019-02-28T12:05:07Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Demo@1b604f19]" name="openApp" is-config="true" duration-ms="12574" started-at="2019-02-28T13:10:11Z" finished-at="2019-02-28T13:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="FAIL" signature="testDemo()[pri:0, instance:script.Demo@1b604f19]" name="testDemo" duration-ms="11" started-at="2019-02-28T12:05:07Z" finished-at="2019-02-28T12:05:07Z">
+        <test-method status="FAIL" signature="testDemo()[pri:0, instance:script.Demo@1b604f19]" name="testDemo" duration-ms="892" started-at="2019-02-28T13:10:24Z" finished-at="2019-02-28T13:10:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -26,7 +26,7 @@
               <![CDATA[java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.fail(Assert.java:100)
-	at script.Demo.testDemo(Demo.java:16)
+	at script.Demo.testDemo(Demo.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -57,21 +57,21 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Demo]]>
+              <![CDATA[qsp]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDemo -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.Demo@1b604f19]" name="closeApp" is-config="true" duration-ms="2714" started-at="2019-02-28T12:05:07Z" finished-at="2019-02-28T12:05:10Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.Demo@1b604f19]" name="closeApp" is-config="true" duration-ms="2496" started-at="2019-02-28T13:10:25Z" finished-at="2019-02-28T13:10:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testDemo status=FAILURE method=Demo.testDemo()[pri:0, instance:script.Demo@1b604f19] output=Demo]]]>
+                <![CDATA[[TestResult name=testDemo status=FAILURE method=Demo.testDemo()[pri:0, instance:script.Demo@1b604f19] output=qsp]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[TesttestDemois fail/skip]]>
+              <![CDATA[TesttestDemo is fail/skip]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->

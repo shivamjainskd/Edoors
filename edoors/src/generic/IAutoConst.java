@@ -7,6 +7,9 @@ public interface IAutoConst {
 	String APP_URL="http://www.google.com";
 	long ITO=10;
 	String IMG_PATH="./Images/";
+	String XL_PATH="./data/input.xlsx";
+			
+	
 	
 
 }
